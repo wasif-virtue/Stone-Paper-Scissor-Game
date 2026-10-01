@@ -1,116 +1,38 @@
-﻿# Stone-Paper-Scissor-Game
-A simple and interactive **Stone Paper Scissor** game built using **HTML, CSS, and JavaScript**. This project demonstrates the fundamentals of DOM manipulation, event handling, game logic, and responsive web design while providing a fun user experience.
+# Stone Paper Scissors
 
-## Live Demo
+A simple browser game where you play a round of Stone, Paper, Scissors against a randomly selected computer move. Built with HTML, CSS, and vanilla JavaScript.
 
-**Play the Game:**
-https://wasif-virtue.github.io/Stone-Paper-Scissor-Game/
+## Features
 
+- Play against the computer
+- Random computer choice for each round
+- Win, loss, and draw messages
+- Running user and computer scores
+- Static front end with no build step
 
-##  Features
+## Play
 
-* Play against the computer.
-* Instant win/lose/draw results.
-* Random computer choice generation.
-* Live score tracking.
-* Clean and responsive user interface.
-* Works on desktop and mobile devices.
+Open the [GitHub Pages URL](https://wasif-virtue.github.io/Stone-Paper-Scissor-Game/) in a browser, or clone the repository and open `index.html` locally.
 
-
-## Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript (ES6)
-
-
-## Project Structure
-
-Stone-Paper-Scissor-Game/
-│
-├── index.html
-├── style.css
-├── app.js
-└── assets/
-
-
-## Getting Started
-
-### Clone the repository
-
-bash
+```bash
 git clone https://github.com/wasif-virtue/Stone-Paper-Scissor-Game.git
+cd Stone-Paper-Scissor-Game
+```
 
+The GitHub Pages link is carried over from the repository's existing README; deployment availability has not been checked.
 
-### Open the project
+## Rules
 
-Navigate to the project folder and open `index.html` in your preferred web browser.
+- Stone beats Scissors
+- Scissors beats Paper
+- Paper beats Stone
+- Matching choices are a draw
 
-No additional installation or dependencies are required.
+## Files
 
-
-##  How to Play
-
-1. Choose **Stone**, **Paper**, or **Scissor**.
-2. The computer will randomly select its move.
-3. The winner is determined using the classic game rules:
-
-   * Stone beats Scissor
-   * Scissor beats Paper
-   * Paper beats Stone
-4. The score updates automatically after each round.
-
-
-##  What I Learned
-
-This project helped strengthen my understanding of:
-
-* JavaScript fundamentals
-* DOM manipulation
-* Event listeners
-* Conditional logic
-* Random number generation
-* Responsive UI development
-* Clean project organization
-
-
-## Future Improvements
-
-* Add animations and sound effects.
-* Implement multiple difficulty levels.
-* Add game history.
-* Store scores using Local Storage.
-* Improve accessibility.
-* Add dark mode.
-
-
-##  Contributing
-
-Contributions, suggestions, and feedback are always welcome.
-
-If you'd like to improve this project:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Commit your changes.
-5. Open a Pull Request.
-
-
-##  Author
-
-**Muhammad Wasif Raza**
-
-Founder & CEO — **Virtue Vision**
-
-* GitHub: https://github.com/wasif-virtue
-
-
-## Support
-
-If you found this project helpful, consider giving it a ⭐ on GitHub. Your support motivates me to build more open-source projects and continue learning.
-
-
-## License
-
-This project is open source and available under the MIT License.
+| File | Purpose |
+| --- | --- |
+| `index.html` | Game interface and score display |
+| `style.css` | Layout and game styling |
+| `app.js` | Random choices, round results, and score updates |
+| `rock.png`, `paper.png`, `scissors.png` | Choice illustrations |
